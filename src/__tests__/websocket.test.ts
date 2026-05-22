@@ -1,6 +1,4 @@
 import { describe, it, expect, beforeEach, afterEach } from 'vitest';
-import { createServer } from 'http';
-import { Server as SocketIOServer } from 'socket.io';
 import { io as ioc, Socket as ClientSocket } from 'socket.io-client';
 import jwt from 'jsonwebtoken';
 import { createApp, AppContext } from '../app.js';

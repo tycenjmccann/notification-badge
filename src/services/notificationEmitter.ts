@@ -1,4 +1,4 @@
-import { Server as SocketIOServer, Namespace } from 'socket.io';
+import { Namespace } from 'socket.io';
 import { CountUpdatePayload } from '../types/notification.js';
 
 /**
